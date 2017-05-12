@@ -1,0 +1,57 @@
+/*
+color primario: #2196F3
+light: #64B5F6
+dark: #1565C0
+accent: #82B1FF
+*/
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Gloria+Hallelujah');
+.c-primario{
+	background-color: #2196F3
+}
+
+.c-light{
+	 background-color:  #64B5F6
+}
+
+.c-dark{
+	background-color: #1565C0
+}
+
+.c-accent{
+	background-color: #82B1FF
+}
+/*home*/
+header{
+	width: 100%;
+	height: 100vh; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:  column;
+}
+.nav{
+	background: transparent;
+	position: absolute;
+	box-shadow: none;
+	padding: 0
+}
+.no-margin{
+	margin: 0 ''
+}
+.font-title{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.font-subtitle{
+	font-family: 'Alegreya', serif;
+}
+.text-bold{
+
+}
+.foto{
+	padding: 1em 1em 3em 1em !important;
+
+}
+.seccion{
+	padding: 3m 2m;
+}
